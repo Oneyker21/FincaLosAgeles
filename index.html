@@ -6,8 +6,6 @@
     <title>Finca Los Angeles</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/CSS/styles.css">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body>
@@ -16,7 +14,7 @@
         <b>Finca Los Angeles</b>
     </div>
     <section id="informacion" class="con-fondo">
-        
+
         <div class="texto-centrado">
             <h1>Bienvenido a Finca Los Angeles</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia pariatur quisquam neque, quod
@@ -27,7 +25,8 @@
         <nav>
             <ul>
                 <button id="btn-productos" class="btn btn-primary">Inicio <i class="ri-arrow-right-fill"></i></button>
-                <button id="btn-productos" class="btn btn-primary">Servicios <i class="ri-arrow-right-fill"></i></button>
+                <button id="btn-productos" class="btn btn-primary">Servicios <i
+                        class="ri-arrow-right-fill"></i></button>
                 <button id="btn-productos" class="btn btn-primary">Imagenes <i class="ri-arrow-right-fill"></i></button>
                 <button id="btn-productos" class="btn btn-primary">Contactanos <i
                         class="ri-arrow-right-fill"></i></button>
@@ -37,17 +36,31 @@
     <section>
         <div id="seccion-colorida">
             <div class="contenido-imagen">
-                <img src="/IMG/turistas.jpg" alt="Imagen representativa">
-                <div class="texto">
-                    <h2>Título</h2>
-                    <p>Texto descriptivo relacionado.</p>
+
+                <div class="container">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <img id="slider1" src="/IMG/venecia4.jpg" alt="">
+                            <img id="slider2" src="/IMG/turistas.jpg" alt="">
+                            <img id="slider3" src="/IMG/turistas2.jpg" alt="">
+                            <img id="slider4" src="/IMG/venecia4.jpg" alt="">
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#slider1"></a>
+                            <a href="#slider2"></a>
+                            <a href="#slider3"></a>
+                            <a href="#slider4"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Sección con Fondo de Otro Color y Texto en el Centro -->
         <div id="seccion-centro" class="fondo-otro-color">
+
             <div class="texto-centrado">
+
                 <h2>Título de la Sección</h2>
                 <p>Texto en el centro de la sección.</p>
             </div>
@@ -77,6 +90,7 @@
                     <a href="#" class="fab fa-instagram"></a>
                 </div>
         </div>
+
         <div class="informacion-contacto">
             <p>Dirección: Dirección del local</p>
             <p>Teléfono: Número de teléfono</p>
