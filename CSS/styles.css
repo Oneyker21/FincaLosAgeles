@@ -11,7 +11,7 @@ body {
 
 .header{
     width: 80%;
-    height: 70px;
+    height: 60px;
     position: fixed;
     display: flex;
     align-items: center;
@@ -60,11 +60,14 @@ body {
 /* Estilos para las secciones */
 
 #informacion {
-    background-image: url('/PerfilOneyker.jpg');
+    background-image: url('/IMG/city.jpg');
     background-size: cover;
     color: #fff;
     text-align: center;
-    padding: 100px 260px;
+    padding: 100px 300px;
+}
+.texto-centrado{
+    margin: 10% 20% 10% 20%;
 }
 
 #seccion-colorida {
@@ -212,7 +215,7 @@ button:hover {
 }
 
 .imagen img:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 /* Estilos para los elementos con hover en secciones */
