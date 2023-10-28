@@ -1,0 +1,213 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilos para la barra de navegación */
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+
+#informacion {
+    background-image: url('ruta-a-imagen-de-fondo.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#seccion-colorida {
+    background-color: #f9c5d1;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.fondo-otro-color {
+    background-color: #a0ced9;
+    text-align: center;
+    padding: 50px 0;
+}
+#dos-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    text-align: center;
+    display: inline-block;
+}
+
+.imagen img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 10px;
+}
+
+.imagen img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos para el formulario de contacto */
+
+#formulario-contacto {
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes-sociales {
+    display: flex;
+}
+
+.redes-sociales a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.redes-sociales a.icono-facebook::before {
+    content: "\f082"; /* Código del ícono de Facebook de Font Awesome */
+    font-family: "Font Awesome 5 Brands";
+    color: #3b5998; /* Color de Facebook */
+}
+
+.redes-sociales a.icono-twitter::before {
+    content: "\f099"; /* Código del ícono de Twitter de Font Awesome */
+    font-family: "Font Awesome 5 Brands";
+    color: #1da1f2; /* Color de Twitter */
+}
+
+.redes-sociales a.icono-instagram::before {
+    content: "\f16d"; /* Código del ícono de Instagram de Font Awesome */
+    font-family: "Font Awesome 5 Brands";
+    color: #e4405f; /* Color de Instagram */
+}
+
+.redes-sociales a:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Estilos adicionales */
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+/* Estilos para los enlaces y botones en general */
+
+a,
+input[type="submit"],
+button {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover,
+input[type="submit"]:hover,
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Estilos para las imágenes en la sección "dos-imagenes" */
+
+.imagen img {
+    transition: transform 0.3s;
+}
+
+.imagen img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para los elementos con hover en secciones */
+
+#seccion-colorida .contenido-imagen img,
+#seccion-colorida .contenido-imagen .texto {
+    transition: transform 0.3s;
+}
+
+#seccion-colorida .contenido-imagen img:hover,
+#seccion-colorida .contenido-imagen .texto:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para los íconos de redes sociales en el pie de página */
+
+.redes-sociales i {
+    transition: color 0.3s;
+}
+
+.redes-sociales i:hover {
+    color: #f9c5d1; /* Cambiar al color de fondo de la sección correspondiente */
+}
