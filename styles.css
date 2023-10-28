@@ -35,11 +35,11 @@ nav ul li a {
 /* Estilos para las secciones */
 
 #informacion {
-    background-image: url('ruta-a-imagen-de-fondo.jpg');
+    background-image: url('/PerfilOneyker.jpg');
     background-size: cover;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 300px;
 }
 
 #seccion-colorida {
