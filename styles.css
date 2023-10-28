@@ -9,28 +9,6 @@ body {
 
 /* Estilos para la barra de navegación */
 
-nav {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
 .header{
     width: 80%;
     height: 70px;
@@ -55,6 +33,25 @@ nav ul li a {
     margin: 0px;
     height: 100%;
 }
+
+#btn-productos{
+    color:#fff !important;
+    margin-right: 20px;
+    width: 150px;
+    background: none;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border:2px solid #fff;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+#btn-productos:hover{
+    background: #4A9C74;
+    border-color: #4A9C74;
+    box-shadow: 0 15px 20px -5px #1A261ecf;
+    color: #fff;
+    transition: 0.2s ease;    
+}
 /* Estilos para las secciones */
 
 #informacion {
@@ -62,7 +59,7 @@ nav ul li a {
     background-size: cover;
     color: #fff;
     text-align: center;
-    padding: 100px 300px;
+    padding: 100px 260px;
 }
 
 #seccion-colorida {
