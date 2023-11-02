@@ -70,9 +70,11 @@ body {
 
 #informacion {
     background-image: url('/IMG/Angeles3.jpeg');
+    background-attachment: fixed;
     background-size: cover;
     color: #fff;
     text-align: center;
+    filter: contrast(1.2);
 }
 
 .texto-centrado {
