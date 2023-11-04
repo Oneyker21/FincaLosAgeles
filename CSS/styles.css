@@ -233,35 +233,6 @@ footer {
     transition: transform 0.3s;
 }
 
-.redes-sociales a.icono-facebook::before {
-    content: "\f082";
-    /* Código del ícono de Facebook de Font Awesome */
-    font-family: "Font Awesome 5 Brands";
-    color: #3b5998;
-    /* Color de Facebook */
-}
-
-.redes-sociales a.icono-twitter::before {
-    content: "\f099";
-    /* Código del ícono de Twitter de Font Awesome */
-    font-family: "Font Awesome 5 Brands";
-    color: #1da1f2;
-    /* Color de Twitter */
-}
-
-.redes-sociales a.icono-instagram::before {
-    content: "\f16d";
-    /* Código del ícono de Instagram de Font Awesome */
-    font-family: "Font Awesome 5 Brands";
-    color: #e4405f;
-    /* Color de Instagram */
-}
-
-.redes-sociales a:hover {
-    transform: scale(1.1);
-}
-
-
 
 /* Estilos adicionales */
 
@@ -290,11 +261,11 @@ button:hover {
 
 /* Estilos para las imágenes en la sección "dos-imagenes" */
 
-.imagen img {
+.imagen-ref{
     transition: transform 0.3s;
 }
 
-.imagen img:hover {
+.imagen-ref:hover {
     transform: scale(1.03);
 }
 
