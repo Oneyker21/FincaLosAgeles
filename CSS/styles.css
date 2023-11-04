@@ -217,21 +217,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-.redes-sociales {
-    display: flex;
-}
-
-.redes-sociales a {
-    color: #fff;
-    font-size: 24px;
-    margin-right: 10px;
-    transition: transform 0.3s;
-}
 
 
 /* Estilos adicionales */
@@ -244,23 +231,6 @@ h2 {
     font-size: 1.5em;
 }
 
-/* Estilos para los enlaces y botones en general */
-
-a,
-input[type="submit"],
-button {
-    transition: background-color 0.3s, color 0.3s;
-}
-
-a:hover,
-input[type="submit"]:hover,
-button:hover {
-    background-color: #555;
-    color: #fff;
-}
-
-/* Estilos para las imágenes en la sección "dos-imagenes" */
-
 .imagen-ref{
     transition: transform 0.3s;
 }
@@ -269,21 +239,4 @@ button:hover {
     transform: scale(1.03);
 }
 
-/* Estilos para los elementos con hover en secciones */
 
-#seccion-colorida .contenido-imagen img,
-#seccion-colorida .contenido-imagen .texto {
-    transition: transform 0.3s;
-}
-
-
-/* Estilos para los íconos de redes sociales en el pie de página */
-
-.redes-sociales i {
-    transition: color 0.3s;
-}
-
-.redes-sociales i:hover {
-    color: #f9c5d1;
-    /* Cambiar al color de fondo de la sección correspondiente */
-}
