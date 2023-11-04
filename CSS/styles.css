@@ -107,7 +107,7 @@ body {
 
 }
 
-.slider img {
+.sliderimg {
     height: auto;
     flex: 1 0 100%;
     scroll-snap-align: start;
@@ -165,7 +165,7 @@ body {
     display: inline-block;
 }
 
-.imagen img {
+.imagen-ref {
     width: 300px;
     height: auto;
     border-radius: 5px;
@@ -175,7 +175,7 @@ body {
     object-fit: cover;
 }
 
-.imagen img:hover {
+.imagen-ref:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
