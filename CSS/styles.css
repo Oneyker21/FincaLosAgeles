@@ -11,8 +11,6 @@ body {
     user-select: none;
 }
 
-/* Estilos para la barra de navegación */
-
 .header {
     width: 80%;
     height: 60px;
@@ -65,8 +63,6 @@ body {
     color: #fff;
     transition: 0.2s ease;
 }
-
-/* Estilos para las secciones */
 
 #informacion {
     background-image: url('/IMG/Angeles3.jpeg');
