@@ -177,7 +177,7 @@ body {
 
 .imagen-ref:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
 
@@ -206,14 +206,6 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-}
-
-.imagen-ref{
-    transition: transform 0.3s;
-}
-
-.imagen-ref:hover {
-    transform: scale(1.03);
 }
 
 
