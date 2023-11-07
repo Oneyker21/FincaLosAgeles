@@ -9,7 +9,7 @@ body {
     padding: 0;
     color: #ffffff;
     color: #333;
-    user-select: none;
+    webkit-user-select: none;
 }
 
 .header {
