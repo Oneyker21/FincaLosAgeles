@@ -9,7 +9,7 @@ body {
     padding: 0;
     color: #ffffff;
     color: #333;
-    webkit-user-select: none;
+    user-select: none;
 }
 
 .header {
@@ -67,7 +67,7 @@ body {
 }
 
 #informacion {
-    background-image: url('/IMG/Angeles3.jpeg');
+    background-image: url('Angeles3.jpeg');
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
