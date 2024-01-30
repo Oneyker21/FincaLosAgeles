@@ -41,7 +41,7 @@ body {
     height: 100%;
 }
 
-.btn-productos {
+.btn-nav {
     color: #fff !important;
     margin-right: 20px;
     width: 150px;
@@ -130,10 +130,10 @@ body {
     background-color: #fff;
     opacity: .75;
     transition: opacity ease 250ms;
+}
 
-    &hover {
-        opacity: 100%;
-    }
+.slider-nav a:hover {
+    opacity: 1;
 }
 
 #seccion-colorida {
