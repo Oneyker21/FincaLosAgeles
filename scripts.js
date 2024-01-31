@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 image.style.display = "none";
             });
             
+            
             // Mostrar la imagen correspondiente al id del slider
             var targetImage = document.getElementById(sliderId);
             if (targetImage) {
